@@ -241,6 +241,8 @@ a {
 
 .team-item {
     background-color: #FFFFFF;
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-item-text-block, .portfolio-item-text-block{
@@ -269,11 +271,16 @@ a {
     color: #2E2F42;
 }
 
+.section.portfolio{
+    border: 1px solid #e7e9fc;
+}
+
 .portfolio-list{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .portfolio-item {
     background-color: #FFFFFF;
