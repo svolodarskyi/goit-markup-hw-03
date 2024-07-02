@@ -17,12 +17,7 @@ p {
     margin: 0;
 }
 
-ul,
-ol {
-    list-style-type: none;
-    margin: 0;
-    padding-left: 0;
-}
+
 
 img{
     display: block;
@@ -30,8 +25,8 @@ img{
 
 .container {
     width: 1158px;
-    padding: 0 15px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 body {
@@ -48,6 +43,13 @@ a {
     text-decoration: none;
 }
 
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
@@ -57,7 +59,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 24px 0;
+    
 
 }
 
@@ -67,6 +69,7 @@ a {
     flex-direction: row;
     align-items: center;
     
+    
 
 }
 
@@ -74,6 +77,8 @@ a {
     display: flex;
     flex-direction: row;
     gap: 40px;
+    
+
 }
 
 
@@ -287,6 +292,7 @@ a {
     padding: 32px 16px;
     text-align: center;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 
