@@ -24,9 +24,14 @@ ol {
     padding-left: 0;
 }
 
+img{
+    display: block;
+}
+
 .container {
     width: 1158px;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
 }
 
@@ -44,6 +49,10 @@ a {
     text-decoration: none;
 }
 
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
 .page-header .container {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -57,14 +66,16 @@ a {
 .nav-panel {
     display: flex;
     flex-direction: row;
-    gap: 76px; 
+    
 
 }
 
-.nav-panel > ul{
+.nav-panel .menu-items{
     display: flex;
     flex-direction: row;
-    gap: 40px
+    gap: 40px;
+    align-items: center;
+    
 
 }
 
@@ -77,6 +88,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-right: 76px;
 }
 
 .studio {
@@ -107,7 +119,7 @@ a {
     color: #404BBF;
 }
 
-.contacts ul {
+.contacts {
     display: flex;
     flex-direction: row;
     gap: 40px
@@ -147,6 +159,7 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     margin: 0 auto 48px auto;
+    max-width: 496px
     
 }
 
@@ -159,9 +172,11 @@ a {
     letter-spacing: 0.04em;
     border-radius: 4px;
     padding: 16px ;
-    width: 169px;
     height: 56px;
-
+    display: block;
+    min-width: 169px;
+    border: none;
+    margin: 0 auto;
 
 }
 
@@ -277,7 +292,8 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
-    margin-bottom:16px; 
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text {
