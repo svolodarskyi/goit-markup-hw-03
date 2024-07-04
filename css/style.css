@@ -60,6 +60,7 @@ ol {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     
 
 }
@@ -90,6 +91,10 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    
+}
+
+.page-header .logo{
     margin-right: 76px;
 }
 
@@ -110,6 +115,7 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    display: block;
 }
 
 .menu-item:hover {
@@ -298,6 +304,7 @@ ol {
     text-align: center;
     border: 1px solid #e7e9fc;
     border-top: none;
+    text-align: left;
 }
 
 
